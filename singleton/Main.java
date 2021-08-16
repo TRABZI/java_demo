@@ -4,7 +4,11 @@ public class Main {
         App app1=App.getInstance();
 
         app0.display_func();
+        app0.display();
+
         app1.display_func();
+        app1.display();
+        System.out.println(app1.var);
     }
 } 
    
